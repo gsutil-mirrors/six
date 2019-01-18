@@ -3,6 +3,15 @@ Changelog for six
 
 This file lists the changes in each six version.
 
+1.12.0
+------
+
+- Issue #259, pull request #260: `six.add_metaclass` now preserves
+  `__qualname__` from the original class.
+
+- Pull request #204: Add `six.ensure_binary`, `six.ensure_text`, and
+  `six.ensure_str`.
+
 1.11.0
 ------
 
